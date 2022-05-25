@@ -21,6 +21,8 @@ def is_valid_email(email):
 
 def is_valid_phone(phone):
     """
+        is_valid_phone(phone) => True if valid 
+        is_valid_phone(phone) => False if not valid 
     """
     if re.fullmatch(PHONE_REG,phone):
         return True

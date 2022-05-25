@@ -1,5 +1,6 @@
 from fileservices import *
 from utils import USERS_DB 
+
 def add_user(user: dict):
     fname = user["fname"]
     lname = user["lname"]
