@@ -43,6 +43,6 @@ def print_dashed_line(number):
     print(" -------------------------")
 
 
-def create_menu(items: list, ps1: str):
+def create_menu(items: list):
     for i in range(len(items)):
         print(f"{i} ) {items[i]}")
