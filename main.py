@@ -67,12 +67,13 @@ def update_project(user):
         print_title("you don't has project with this name")
     else :
         while True:
-            print("Press enter for defaults value")
+            print_title("Press enter for defaults value")
             title = input(f"Project title ({oldproject.title}) : ")
             target = input(f"Project target ({oldproject.target}) : ")
             start = input(f"Start date yyyy-mm-dd ({oldproject.start}) : ")
             end = input(f"End date yyyy-mm-dd ({oldproject.end}) : ")
             details = input(f"Project details ({oldproject.details}): ")
+            
             if title == "":
                 title=oldproject.title
             if target =="":
